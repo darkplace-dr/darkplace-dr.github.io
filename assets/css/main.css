@@ -104,7 +104,7 @@ nav > .flags li a:hover, nav > .flags li img:hover { opacity: 0.9; }
 
 #logo img { margin: 0 auto; max-width: 80vw; height: auto;}
 
-@media screen and (max-width: 767px) { #logo img { padding-left: 30px; padding-right: 30px; } }
+@media screen and (max-width: 767px) { #logo img { } }
 
 @media screen and (min-width: 768px) { #logo img { padding-left: 48px; padding-right: 40px; } }
 
