@@ -20,4 +20,28 @@ body { background-color: black; color: #ffffff; font-family: "8bitOperatorPlus-B
 
 #ytand #text div { position: absolute; width: 810px; }
 
+.nav-button-dp
+{
+	position: relative;
+}
+
+.nav .nav-button-dp a
+{
+	z-index: 1;
+}
+
+.nav .nav-button-dp img
+{
+	position: absolute;
+    left: 40px;
+    top: 11px;
+    transform: rotate(45deg);
+    z-index: 0;
+    display: none;
+}
+
+.nav .nav-button-dp:hover img {
+	display: initial;
+}
+
 /*# sourceMappingURL=extra.css.map */
