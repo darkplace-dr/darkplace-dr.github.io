@@ -104,6 +104,14 @@
                           That probably means someone did a oopsie in the mod's code.<br>
                           Usually though, errors like these tend to be fixed relatively quickly, so this shouldn't become too much a big issue.</p>
                     </div>
+                    <div class="trouble">
+                        <p class="issue">The DLC menu isn't working and I want to install a DLC.</p>
+                        <p class="resolve">
+                          We are completely aware that the DLC menu is busted, but we have a workaround.<br>
+                          If you check the src/engine/vendcust.lua file, you should see a variable named GITHUB_REPOS.<br>
+                          This variable is a dictionary where the key is the username and the value is a list of DLCs they own.<br>
+                          From there, it's as simple as going to their Github profile and downloading the DLC manually.</p>
+                    </div>
                 </div>
             </div>
         </div>
