@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta charset="utf-8">
   <meta content="width=device-width" name="viewport">
@@ -23,31 +24,31 @@
         <ul class="nav nav-justified">
           <li class="nav-button-dp">
             <a href="">HOME</a>
-            <img src="/assets/images/main/small-icon.png">
+            <img src="/assets/images/main/small-icon.png" style="image-rendering: pixelated;">
           </li>
           <li class="nav-button-dp">
               <a href="https://darkplace.wiki.gg/wiki/Dark_Place_Wiki">WIKI</a>
-              <img src="/assets/images/main/small-icon.png">
+              <img src="/assets/images/main/small-icon.png" style="image-rendering: pixelated;">
           </li>
           <li class="nav-button-dp">
               <a href="faq">FAQ</a>
-              <img src="/assets/images/main/small-icon.png">
+              <img src="/assets/images/main/small-icon.png" style="image-rendering: pixelated;">
           </li>
           <li class="nav-button-dp">
               <a href="https://www.speedrun.com/Dark_Place">SPEEDRUNS</a>
-              <img src="/assets/images/main/small-icon.png">
+              <img src="/assets/images/main/small-icon.png" style="image-rendering: pixelated;">
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div id="background"></div>
+
   <main class="wrapper">
     <div class="main container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8" id="logo">
           <h1>
-            <img alt="DARK PLACE" aria-hidden="true" src="/assets/images/main/logo.png">
+            <img alt="DARK PLACE" aria-hidden="true" src="/assets/images/main/logo.png" style="image-rendering: pixelated;">
           </h1>
           <h1 id="subtitle">WORK IN PROGRESS. Check back soon!</h1>
           <div id="text">
@@ -56,44 +57,43 @@
         </div>
       </div>
     </div>
-    <div class="main container" id="download">
-	    <div id ="ribbon"></div>
-      <div class="row">
-        <div class="col-md-offset-2.5 col-md-3 col-sm-offset-3 col-sm-3">
-          <a aria-label="Dark Place: REBIRTH Download" class="download-button pc-button" href="https://github.com/darkplace-dr/DarkPlaceRebirth-Kristal">
-            <div class="button-contents">
-              <span>Current Version</span>
-              <small>Download Here</small>
-            </div>
-          </a>
+  </main>
+
+  <div class="main container" id="download">
+    <div id ="ribbon"></div>
+    <div class="col-md-offset-2.5 col-md-3 col-sm-offset-3 col-sm-3">
+      <a aria-label="Dark Place: REBIRTH Download" class="download-button pc-button" href="https://github.com/darkplace-dr/DarkPlaceRebirth-Kristal">
+        <div class="button-contents">
+          <span>Dark Place REBIRTH</span>
+          <small>Download Here</small>
         </div>
-        <div class="col-md-3 col-sm-3">
-          <a aria-label="Dark Place: Legacy Download" class="download-button pc-button" href="https://github.com/darkplace-dr/Dark-Place">
-            <div class="button-contents">
-              <span>Legacy Version</span>
-              <small>Download Here</small>
-            </div>
-          </a>
-        </div>
-      </div>
+      </a>
     </div>
+    <div class="col-md-3 col-sm-3">
+      <a aria-label="Dark Place: Legacy Download" class="download-button pc-button" href="https://github.com/darkplace-dr/Dark-Place">
+        <div class="button-contents">
+          <span>Dark Place LEGACY</span>
+          <small>Download Here</small>
+        </div>
+      </a>
+    </div>
+  </div>
+
   <style>
      #text .dark {
          color: black;
      }
   </style>
+
   <footer>
-      <div class="container">
-        <div class="row">
-            <div class="col-sm-offset-3 col-sm-6">
-                <div class="disclaimer">
-                  <p>This is a NON-PROFIT fangame project. We are not affliated with Toby Fox or the UNDERTALE/deltarune team in any way, shape or form.</p>
-                </div>
-            </div>
-        </div>
+    <div class="container" style="position:relative;">
+      <div class="disclaimer" style="margin-top:12px; font-size:12px;">
+        <p>(We are not affiliated Toby Fox, Fangamer, or the UNDERTALE/DELTARUNE team in any way, shape or form. <br>This is a fan-made, non-profit project made with passion.)</p>
       </div>
+    </div>
   </footer>
+
   <script src="/assets/javascripts/jquery.js"></script>
   <script src="/assets/javascripts/bootstrap.js"></script>
-
-</body></html>
+</body>
+</html>
